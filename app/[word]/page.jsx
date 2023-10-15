@@ -6,7 +6,7 @@ import playAudio from "@/images/icon-play.svg";
 import newWindow from "@/images/icon-new-window.svg";
 import Loading from "@/components/Loading";
 
-const rutaDinamica = ({ params }) => {
+const word = ({ params }) => {
   const { word } = params;
   const [data, setData] = useState();
   const [play , setPlay] = useState(false);
@@ -149,4 +149,4 @@ const rutaDinamica = ({ params }) => {
   );
 };
 
-export default rutaDinamica;
+export default word;
