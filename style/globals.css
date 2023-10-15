@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Work+Sans:wght@400;600&family=Young+Serif&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply   md:max-w-[600px] mx-auto;
+  }
+}
+
+body{
+  font-family: "Young Serif", serif;
+}
+
+.dark {
+  background: #000;
+  transition: all 0.5s ease;
+}
+
+.Sans {
+  font-family: "Work Sans", sans-serif;
+}
+
+.Mono {
+  font-family: "Cutive Mono", monospace;
+}
+
+.Serif {
+  font-family: "Young Serif", serif;
+}
+
