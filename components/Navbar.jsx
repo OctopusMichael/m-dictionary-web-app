@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import logo from "../images/logo.svg";
+import logo from "@/images/logo.svg";
 import { Moon, Sun } from "lucide-react";
-import arrowDown from "../images/icon-arrow-down.svg";
+import arrowDown from "@/images/icon-arrow-down.svg";
 import { useFonts } from "@/hooks/useFonts";
 
 const Navbar = () => {

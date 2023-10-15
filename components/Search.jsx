@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import serchIcon from "../images/icon-search.svg";
+import serchIcon from "@/images/icon-search.svg";
 import useWord from "@/hooks/useWord";
 
 const Search = () => {
