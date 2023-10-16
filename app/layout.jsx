@@ -4,6 +4,7 @@ import "@/style/globals.css";
 import Search from "@/components/Search";
 
 
+
 /* import {
   Space_Mono,
   PT_Serif,
@@ -24,7 +25,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  
+
   return (
     <html lang="en" >
       <body  >

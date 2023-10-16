@@ -18,7 +18,7 @@ const Search = () => {
           onChange={handleChange}
           placeholder="Search for any word... "
           type="text"
-          className="bg-grayInput  dark:bg-darkInput rounded-l-2xl  w-full h-14 focus:outline-none ps-5 "
+          className="bg-grayInput dark:text-white text-dark  dark:bg-darkInput rounded-l-2xl  w-full h-14 focus:outline-none ps-5 "
         />
         <button className="bg-grayInput dark:bg-darkInput   rounded-r-2xl pe-5 ">
           <Link href={inputValue}>
